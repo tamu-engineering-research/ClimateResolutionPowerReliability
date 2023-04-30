@@ -14,4 +14,6 @@ The `data` folder contains several files for data collection and processing, inc
 ## Modeling and analysis of long-term resource adequacy
 We provide four types of generation units of, including hydro, thermal, solar, and wind.
 
-The `grid` folder contains several files for grid component modeling, including `hydro`, `thermal`, `solar`, and `wind`, grid operation modeling `outage`, grid planning modeling `expansion`, and adequacy assessment `adequacy`. Please see more details in grid modeling files'[ readme file](grid/README.md).
+The `grid` folder contains several files for grid component modeling, including `hydro`, `thermal`, `solar`, and `wind`, grid operation modeling `outage`, grid planning modeling `expansion`, and adequacy assessment `adequacy`.
+
+To calculate resource adequacy, please run `adequacy.py`.
